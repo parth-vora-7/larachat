@@ -1,0 +1,27 @@
+{
+    "name": "xparthxvorax/larachat",
+    "description": "A real-time socket based chat application for Laravel",
+    "require": {
+        "illuminate/support": "^5.7",
+        "illuminate/http": "^5.7",
+        "predis/predis": "1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "xparthxvorax\\larachat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xparthx",
+            "email": "parth.vora.777@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "xparthxvorax\\larachat\\LaraChatServiceProvider"
+            ]
+        }
+    }
+}
