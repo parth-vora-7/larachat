@@ -9,6 +9,8 @@ Route::group(['middleware' => ['web', 'auth'], 'prefix' => 'larachat', 'namespac
 	Route::post('/send-message', 'ChatController@sendMessage');
 });
 
+Broadcast::routes();
+
 Broadcast::channel('new-message-for-{userId}', function ($user, $userId) {
 	return $user->id == $userId;
 });

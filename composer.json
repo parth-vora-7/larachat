@@ -2,9 +2,16 @@
     "name": "xparthxvorax/larachat",
     "description": "A real-time socket based chat application for Laravel",
     "require": {
+        "predis/predis": "1.1",
         "illuminate/support": "^5.7",
         "illuminate/http": "^5.7",
-        "predis/predis": "1.1"
+        "Illuminate/Console": "^5.7",
+        "Illuminate/Broadcasting": "^5.7",
+        "Illuminate/Queue": "^5.7",
+        "Illuminate/Foundation": "^5.7",
+        "Illuminate/Notifications": "^5.7",
+        "Illuminate/Contracts": "^5.7",
+        "Illuminate/Database": "^5.7",
     },
     "autoload": {
         "psr-4": {

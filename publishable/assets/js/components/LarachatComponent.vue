@@ -43,11 +43,6 @@ export default {
             .listen('.larachat.new.chat.message', (e) => {
                 self.appendNewMessage(e.chatMessage);
             });
-
-            // window.Echo.private('App.User.' + self.loggedInUser.id)
-            // .notification((notification) => {
-            //     console.log(notification);
-            // });
         })
         .catch(function (error) {
             console.log(error);
