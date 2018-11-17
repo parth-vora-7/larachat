@@ -11,7 +11,7 @@
         "Illuminate/Foundation": "^5.7",
         "Illuminate/Notifications": "^5.7",
         "Illuminate/Contracts": "^5.7",
-        "Illuminate/Database": "^5.7",
+        "Illuminate/Database": "^5.7"
     },
     "autoload": {
         "psr-4": {
