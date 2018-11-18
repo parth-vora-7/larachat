@@ -38,7 +38,7 @@ class LaraChatInstall extends Command
     public function handle()
     {
         $this->call('migrate', [
-            '--path' => realpath(__DIR__ . './../Migrations'),
+            '--path' => realpath(__DIR__ . '../Migrations'),
         ]);
         $this->call('vendor:publish', [
             '--tag'   => 'larachat',
