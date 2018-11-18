@@ -1,15 +1,15 @@
 <h4>Prerequisites:</h4>
-- You must have PHP > 7.0, Laravel > 5.0, Web server (Apache/Ngnix), Node.js and npm installed on your machine
+You must have PHP > 7.0, Laravel > 5.0, Web server (Apache/Ngnix), Node.js and npm installed on your machine
 
 <h4>Please follow below steps to install the package to a new or an existing Laravel site:</h4>
 
-1) Run `php artisan make:auth` to scaffold basic login and registration views and routes
+1. Run `php artisan make:auth` to scaffold basic login and registration views and routes
 
-2) Install package using `composer install xparthxvorax/larachat` command
+2. Install package using `composer install xparthxvorax/larachat` command
 
-3) Run `php artisan larachat:install` command
+3. Run `php artisan larachat:install` command
 
-4) Setup front-end:
+4. Setup front-end:
    - Run `npm install -g laravel-echo-server` command
    - Add below dependencies to the `package.json` file:
    ```
@@ -55,10 +55,10 @@
        </div>
    </div>
    ```
-  Or you may put `<larachat-component></larachat-component>` to any other view wherever it fits best as per your site design layout.       Also you may modify Vue component's default HTML and CSS into `resources\js\components\LarachatComponent.vue` as per your requirement.
+      Or you may put `<larachat-component></larachat-component>` to any other view wherever it fits best as per your site design layout.       Also you may modify Vue component's default HTML and CSS into `resources\js\components\LarachatComponent.vue` as per your               requirement.
 
-5) Set `BROADCAST_DRIVER=redis` and add `LARAVEL_ECHO_SERVER_AUTH_HOST=your-site-url`
+5. Set `BROADCAST_DRIVER=redis` and add `LARAVEL_ECHO_SERVER_AUTH_HOST=your-site-url`
 
-6) Runn `npm run dev` command to compile front-end assets 
+6. Runn `npm run dev` command to compile front-end assets 
 
-7) Run `laravel-echo-server start` to start socket server. Keep the command running or you may use supervisor for that(https://laravel.com/docs/master/queues#supervisor-configuration)
+7. Run `laravel-echo-server start` to start socket server. Keep the command running or you may use supervisor for that(https://laravel.com/docs/master/queues#supervisor-configuration)
