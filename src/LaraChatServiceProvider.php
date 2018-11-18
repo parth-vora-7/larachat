@@ -23,7 +23,7 @@ class LaraChatServiceProvider extends ServiceProvider
             realpath(__DIR__ . '/../publishable/assets/img') => public_path('vendor/larachat'),
         ], 'larachat');
         $this->publishes([
-            realpath(__DIR__ . '/../publishable/assets/laravel-echo-server.json') => base_path() . 'laravel-echo-server.json',
+            realpath(__DIR__ . '/../publishable/assets/laravel-echo-server.json') => base_path('/') . 'laravel-echo-server.json',
         ], 'larachat');
         if ($this->app->runningInConsole()) {
             $this->commands([
