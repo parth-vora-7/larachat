@@ -5,7 +5,7 @@ You must have PHP > 7.0, Laravel > 5.0, Web server (Apache/Ngnix), Node.js and n
 
 1. Run `php artisan make:auth` to scaffold basic login and registration views and routes
 
-2. Install package using `composer install xparthxvorax/larachat` command
+2. Install package using `composer require xparthxvorax/larachat` command
 
 3. Run `php artisan larachat:install` command
 
@@ -62,3 +62,8 @@ You must have PHP > 7.0, Laravel > 5.0, Web server (Apache/Ngnix), Node.js and n
 6. Runn `npm run dev` command to compile front-end assets 
 
 7. Run `laravel-echo-server start` to start socket server. Keep the command running or you may use supervisor for that(https://laravel.com/docs/master/queues#supervisor-configuration)
+
+<h5>Demo:</h5>
+https://www.youtube.com/watch?v=GKeMBxQWOyw
+
+http://52.66.210.249/larachat/public/
