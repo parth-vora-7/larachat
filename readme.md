@@ -30,7 +30,7 @@ You must have PHP > 7.0, Laravel > 5.0, Web server (Apache/Ngnix), Node.js and n
    ```
    - Add below line to `resources/js/app.js`
    ```
-   Vue.component('larachat-component', require('./components/LaraChatComponent.vue'));
+   Vue.component('larachat-component', require('./components/LarachatComponent.vue'));
    ```
    - To display a user list, add `<larachat-component></larachat-component>` in `resources/views/home.blade.php` like:
    ```
