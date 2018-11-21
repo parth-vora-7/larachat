@@ -63,7 +63,24 @@ You must have PHP > 7.0, Laravel > 5.0, Web server (Apache/Ngnix), Node.js and n
 
 7. Run `laravel-echo-server start` to start socket server. Keep the command running or you may use supervisor for that(https://laravel.com/docs/master/queues#supervisor-configuration)
 
-<h5>Demo:</h5>
-https://www.youtube.com/watch?v=GKeMBxQWOyw
+**Demo video:** https://www.youtube.com/watch?v=GKeMBxQWOyw
 
-http://52.66.210.249/larachat/public/
+**Live demo site:** http://52.66.210.249/larachat/public/
+
+1. Account 1:
+
+      Username: kylie71@example.org
+
+      Password: secret
+
+2. Account 2:
+
+      Username: pfannerstill.eloise@example.org
+
+      Password: secret
+
+3. Account 3:
+
+      Username: tremaine.kiehn@example.com
+
+      Password: secret
